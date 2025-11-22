@@ -1,2 +1,2 @@
 // A script that deletes all documents that satisfy a given condition
-db.school.deleteOne( {name: "Holberton school"});
+db.school.deleteMany( {name: "Holberton school"});
